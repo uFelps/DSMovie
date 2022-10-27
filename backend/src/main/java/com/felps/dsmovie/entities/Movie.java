@@ -80,6 +80,12 @@ public class Movie implements Serializable{
 	public void setImage(String image) {
 		this.image = image;
 	}
+	
+	
+
+	public Set<Score> getScores() {
+		return scores;
+	}
 
 	@Override
 	public int hashCode() {
