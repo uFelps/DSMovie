@@ -11,7 +11,7 @@ import com.felps.dsmovie.dto.ScoreDTO;
 import com.felps.dsmovie.services.ScoreService;
 
 @RestController
-@RequestMapping(value = "score")
+@RequestMapping(value = "/scores")
 public class ScoreController {
 	
 	@Autowired
